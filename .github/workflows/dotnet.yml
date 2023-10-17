@@ -43,8 +43,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
 
-    - name: Publish the application
-      run: dotnet publish -c Release -o ./03-app-dotnet/app-dotnet.csproj
+
 
 
 
