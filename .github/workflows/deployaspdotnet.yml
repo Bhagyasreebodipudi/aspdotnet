@@ -5,7 +5,7 @@ if-no-files-found: error  # <-- last line of build job: insert below this line
     runs-on: ubuntu-latest
 
     environment:
-      name: PRE-PROD
+      name: DEV
       url: ${{ steps.deploywebapp.outputs.webapp-url }}
 
     steps:
