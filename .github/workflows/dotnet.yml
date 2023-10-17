@@ -45,6 +45,10 @@ jobs:
         
     - name: Test
       run: dotnet test --no-build --verbosity normal
+
+    - name: Publish the application
+      run: dotnet publish 03-app-dotnet/app-dotnet.csproj -c Release -o website
+   
       
    
 
